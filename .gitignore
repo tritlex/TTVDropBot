@@ -1,0 +1,12 @@
+/node_modules/
+/.npmrc
+/build/
+/twitch-session.json
+/CustomChannels.json
+/src/**/*.bat
+*.log
+/package/*
+.npmrc
+/settings.json
+src/twitch-session.json
+.idea/codestream.xml

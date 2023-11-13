@@ -1,0 +1,17 @@
+compile = "./.config/build.sh"
+run = "npm i && npm run start:replit"
+entrypoint = "index.ts"
+
+[packager]
+language = "nodejs"
+
+# Environment variables (ADD YOUR TWITCH TOKEN ON THE REPLIT SECRETS)
+[env]
+ttvdropbot_autoclaim= "false"
+ttvdropbot_autopoints= "false"
+ttvdropbot_interval="60000"
+ttvdropbot_retryinterval="60000"
+XDG_CONFIG_HOME = "/home/runner/.config"
+
+[nix]
+channel = "stable-21_11"
